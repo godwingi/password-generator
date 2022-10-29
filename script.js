@@ -1,8 +1,11 @@
 // Assignment code here
 
-var specialCharacter = window.prompt(`Choose one of the following special characters:  !"#$%&'()*+,-./:;<=>?@[\]^_`);
+var specialCharacter = window.prompt(`Choose any of the following special characters: \!\"\#\$\%\&\'\(\)\*\+\,\-\.\/\:\;\<\=\>\?\@\[\\\]\^\_\`\{\|\}\~ If you do not want one, leave the space blank`);
 
-
+var lowerCase = window.prompt(`Choose a lowercase letter. "abcdefghijklmnopqrstuvwxyz" If you do not want any, leave the space blank`);
+lowerCase = lowerCase.toLowerCase();
+var upperCase = window.prompt(`Choose an uppercase letter. "ABCDEFGHIJKLMNOPQRSTUVWXYZ" If you do not want any, leave the space blank`);
+upperCase = upperCase.toUpperCase();
 
 document.write(specialCharacter)
 
