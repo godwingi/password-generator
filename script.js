@@ -1,5 +1,11 @@
 // Assignment code here
 
+var specialCharacter = window.prompt(`Choose one of the following special characters:  !"#$%&'()*+,-./:;<=>?@[\]^_`);
+
+
+
+document.write(specialCharacter)
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
