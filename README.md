@@ -19,10 +19,15 @@ N/A
 ## Usage
 
 In order to use this application, users will need to first click "Generate Password". This will then prompt users to:
+
 (a) type in their desired length,
+
 (b) confirm whether they would like lowercase letters
+
 (c) confirm whether they would like uppercase letters
+
 (d) confirm whether they would like numbers, and
+
 (e) confirm whether they would like special characters
 
 ## Credits
@@ -30,11 +35,14 @@ In order to use this application, users will need to first click "Generate Passw
 The following resources/videos/tutorials were used:
 
 Videos
+
 Getting User Input: https://www.mikedane.com/web-development/javascript/getting-user-input/
+
 JavaScript Password Generator: https://www.youtube.com/watch?v=duNmhKgtcsI
 
 Resources
 Character Set: https://www.w3schools.com/html/html_charset.asp
+
 Google Search on Const and Var :https://www.google.com/search?q=difference+between+const+and+var&oq=difference+between+const+and+var&aqs=chrome..69i57j0i271l3j69i60.7696j0j9&sourceid=chrome&ie=UTF-8
 
 
