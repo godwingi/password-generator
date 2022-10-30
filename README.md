@@ -41,6 +41,7 @@ Getting User Input: https://www.mikedane.com/web-development/javascript/getting-
 JavaScript Password Generator: https://www.youtube.com/watch?v=duNmhKgtcsI
 
 Resources
+
 Character Set: https://www.w3schools.com/html/html_charset.asp
 
 Google Search on Const and Var :https://www.google.com/search?q=difference+between+const+and+var&oq=difference+between+const+and+var&aqs=chrome..69i57j0i271l3j69i60.7696j0j9&sourceid=chrome&ie=UTF-8
