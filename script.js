@@ -16,6 +16,7 @@ var password = generatePassword(generateBtn);
 var passwordText = document.querySelector("#password");
 
 function generatePassword(){
+  var result = " ";
   var length = desiredLength;
   var yesLower =  lowerCaseLetters === true;
   var yesUpper = upperCaseLetters === true;
@@ -37,7 +38,7 @@ function writePassword(lower, upper, number, character, length) {
 
   const okayedPrompts = lower + upper + number + character;
 
-  const okayedArr = [{lower}, {upper}, {number}, {symbol}].filter (item => Object.value(item[0]));
+  const okayedArr = [{lower}, {upper}, {number}, {character}].filter (item => Object.value(item[0]));
 
   if (okayedPrompts === 0){
     return '';
