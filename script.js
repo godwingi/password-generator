@@ -6,7 +6,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", function(){
-  var desiredLength = prompt("Choose character between 8-128:");
+  var desiredLength = [8>=128].value; prompt("Choose characters between 8-128:");
   var lowerCaseLetters = confirm("Include lowercase characters?\nEither OK or Cancel.");
   var upperCaseLetters = confirm("Include uppercase characters?\nEither OK or Cancel.");
   var numerical = confirm("Include numbers?\nEither OK or Cancel.");
@@ -16,11 +16,17 @@ var password = generatePassword(generateBtn);
 var passwordText = document.querySelector("#password");
 
 function generatePassword(){
-  var length = (8 >= 128).value;
-  var yesLower =  lowerCaseLetters;
-  var yesUpper = upperCaseLetters;
-  var yesNumbers = numerical;
-  var yesSymbols = symbols;
+  var length = desiredLength;
+  var yesLower =  lowerCaseLetters === true;
+  var yesUpper = upperCaseLetters === true;
+  var yesNumbers = numerical === true;
+  var yesSymbols = symbols === true;
+
+  if (lowerCaseLetters, upperCaseLetters, numerical, symbols === true) {
+    passwordText;
+  } else {
+    return;
+  }
 
   passwordText = generatePassword(yesLower, yesUpper, yesNumbers,yesSymbols, length);
 }

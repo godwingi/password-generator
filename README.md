@@ -34,13 +34,13 @@ In order to use this application, users will need to first click "Generate Passw
 
 The following resources/videos/tutorials were used:
 
-Videos
+### Videos
 
 Getting User Input: https://www.mikedane.com/web-development/javascript/getting-user-input/
 
 JavaScript Password Generator: https://www.youtube.com/watch?v=duNmhKgtcsI
 
-Resources
+### Resources
 
 Character Set: https://www.w3schools.com/html/html_charset.asp
 
